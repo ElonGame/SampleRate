@@ -2,11 +2,11 @@ SampleRate
 ==========
 
 A sample rate and beats-per-minute calculator for music production.  It is written in C++
-and uses wxWidgets for the user interface.
+and uses wxWidgets for the user interface. It was originally released on http://zetacentauri.com
 
-An installer for Windows is available here:
+![Sample Rate Screenshot](https://github.com/Xangis/SampleRate/blob/master/images/SampleRateAndBPMCalculator1.png)
 
-http://zetacentauri.com/software_samplerateandbpmcalculator.htm
+A prebuild installer for Windows is available in the installer folder.
 
 Building requires that wxWidgets 2.6+ be installed (2.8 recommended).  There is a Makefile
 included for use on Linux.  If your wx-config is in a different location than that in the
