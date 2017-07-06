@@ -177,12 +177,12 @@ void MainDlg::OnAbout( wxCommandEvent& event )
 	// Show about box.
     wxAboutDialogInfo info;
     info.SetName(_("Sample Rate and BPM Calculator"));
-    info.SetVersion(_("1.01"));
-    info.SetCopyright(_("(c) 2007-2012 Zeta Centauri, Inc."));
+    info.SetVersion(_("1.02"));
+    info.SetCopyright(_("(c) 2007-2017 Jason Champion"));
 	info.AddDeveloper(_("Jason Champion"));
 	info.SetIcon(_icon);
-	info.SetLicense(_("Sample Rate and BPM Calculator is free software and may be distributed freely."));
-	info.SetWebSite(_("http://zetacentauri.com/software_samplerateandbpmcalculator.htm"));
+	info.SetLicense(_("Sample Rate and BPM Calculator is free software and may be distributed freely under the terms of the MIT license."));
+	info.SetWebSite(_("https://github.com/Xangis/SampleRate"));
 	info.SetDescription(_("Sample Rate and BPM Calculator uses the wxWidgets libraries."));
 
     wxAboutBox(info);
